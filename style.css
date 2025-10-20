@@ -16,3 +16,391 @@
 body {
   font-family: Meme, sans-serif;
   line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #0f1f4d 0%, #1e3a8a 50%, #3b5fc9 100%);
+  background-attachment: fixed;
+  color: #333;
+}
+
+h1,
+h2 {
+  font-family: Inter, sans-serif;
+}
+
+h3,
+h4 {
+  font-family: Oswald, sans-serif;
+}
+
+header {
+  background: radial-gradient(circle at 30% 30%, #3b5fc9 0%, #1e3a8a 50%, #0f1f4d 100%);
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 8px 16px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+header nav ul li a:hover {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);
+}
+
+main {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+section {
+  background: radial-gradient(circle at 40% 40%, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.9) 100%);
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.8),
+    0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(30, 58, 138, 0.2);
+}
+
+h1,
+h2,
+h3 {
+  color: #1e3a8a;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+section ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+section ul li {
+  background: radial-gradient(circle at 35% 35%, #f8f9fa 0%, #e9ecef 100%);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(30, 58, 138, 0.1);
+  transition: all 0.3s ease;
+}
+
+section ul li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+section ul li img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.8);
+}
+
+section ul li h3 {
+  color: #1e3a8a;
+  margin-top: 0;
+  font-size: 1.3rem;
+}
+
+section ul li a {
+  display: inline-block;
+  background: radial-gradient(circle at 40% 40%, #3b5fc9 0%, #1e3a8a 50%, #0f1f4d 100%);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-top: 10px;
+  font-weight: bold;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+section ul li a:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+[aria-label="Hero"] {
+  background: radial-gradient(ellipse at 30% 30%, #3b5fc9 0%, #1e3a8a 40%, #0f1f4d 100%);
+  color: white;
+  text-align: center;
+  padding: 50px 30px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4),
+    inset 0 2px 0 rgba(255, 255, 255, 0.1);
+}
+
+[aria-label="Hero"] h1 {
+  color: white;
+  font-size: 3rem;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  margin-bottom: 30px;
+}
+
+[aria-label="Hero"] img {
+  max-width: 500px;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  border: 3px solid rgba(255, 255, 255, 0.3);
+}
+
+[aria-label="Slogan"] {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+[aria-label="Slogan"] ul {
+  background: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  padding: 0;
+}
+
+[aria-label="Slogan"] ul li {
+  padding: 15px 30px;
+  background: radial-gradient(circle at 35% 35%, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.1) 100%);
+  border-radius: 10px;
+  font-size: 1.5rem;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+details {
+  background: radial-gradient(circle at 35% 35%, #f8f9fa 0%, #e9ecef 100%);
+  padding: 15px 20px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(30, 58, 138, 0.1);
+}
+
+details summary {
+  font-weight: bold;
+  cursor: pointer;
+  color: #1e3a8a;
+  font-size: 1.2rem;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+details[open] {
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 30px;
+  background: radial-gradient(circle at 40% 40%, rgba(255, 255, 255, 0.95) 0%, rgba(248, 249, 250, 0.9) 100%);
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(30, 58, 138, 0.2);
+}
+
+form label {
+  font-weight: bold;
+  color: #1e3a8a;
+  margin-bottom: 5px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  padding: 12px;
+  border: 2px solid rgba(30, 58, 138, 0.3);
+  border-radius: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  background: white;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form textarea:focus {
+  outline: none;
+  border-color: #1e3a8a;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1),
+    0 0 0 3px rgba(30, 58, 138, 0.1);
+}
+
+form button {
+  background: radial-gradient(circle at 40% 40%, #3b5fc9 0%, #1e3a8a 50%, #0f1f4d 100%);
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+form button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+form button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+footer {
+  background: radial-gradient(circle at 30% 30%, #3b5fc9 0%, #1e3a8a 50%, #0f1f4d 100%);
+  color: #fff;
+  padding: 30px 0;
+  text-align: center;
+  box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.5),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+footer section {
+  background-color: transparent;
+  box-shadow: none;
+  margin-bottom: 0;
+  padding: 10px 0;
+}
+
+footer section p {
+  margin: 0;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-top: 15px;
+  list-style: none;
+  gap: 20px;
+}
+
+footer ul li {
+  margin: 0;
+}
+
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+footer ul li a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+footer ul li svg {
+  width: 28px;
+  height: 28px;
+  fill: currentColor;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+}
+
+[aria-label="Call to Action"] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+[aria-label="Call to Action"] a img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5),
+    inset 0 2px 0 rgba(255, 255, 255, 0.2);
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  transition: all 0.3s ease;
+}
+
+[aria-label="Call to Action"] a img:hover {
+  transform: scale(1.1) translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6),
+    inset 0 2px 0 rgba(255, 255, 255, 0.2);
+}
+
+@media (max-width: 768px) {
+  [aria-label="Slogan"] {
+    flex-direction: column;
+  }
+
+  [aria-label="Hero"] h1 {
+    font-size: 2rem;
+  }
+
+  section ul {
+    grid-template-columns: 1fr;
+  }
+}
