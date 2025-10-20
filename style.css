@@ -172,6 +172,16 @@ section ul li a:hover {
     inset 0 2px 0 rgba(255, 255, 255, 0.1);
 }
 
+[aria-label="About Me"]>div {
+  display: flex;
+  gap: 5%;
+}
+
+[aria-label="About Me"] img {
+  border-radius: 15px;
+  width: 40%;
+}
+
 [aria-label="Hero"] h1 {
   color: white;
   font-size: 3rem;
