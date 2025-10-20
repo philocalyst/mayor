@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('Inter-Black.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Meme';
+  src: url('Condensed-Regular.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url('Oswald-Bold.otf') format('otf');
+}
+
+body {
+  font-family: Meme, sans-serif;
+  line-height: 1.6;
