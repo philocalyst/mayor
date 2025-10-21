@@ -242,7 +242,8 @@ section ul {
     display: flex;
     flex-wrap: wrap;
     gap: clamp(2rem, 5%, 5%);
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
   }
 
   img {
@@ -261,7 +262,7 @@ section ul {
     display: flex;
     flex-wrap: wrap;
     gap: clamp(1.5rem, 4vw, 2.5rem);
-    align-items: flex-start;
+    align-items: center;
   }
 
   p {
