@@ -47,17 +47,17 @@
 
 @font-face {
   font-family: 'Inter';
-  src: url('Inter-Black.woff2') format('woff2');
+  src: url('./fonts/Inter-Black.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'Meme';
-  src: url('Condensed-Regular.otf') format('otf');
+  src: url('./fonts/Condensed-Regular.otf') format('otf');
 }
 
 @font-face {
   font-family: 'Oswald';
-  src: url('Oswald-Bold.otf') format('otf');
+  src: url('./fonts/Oswald-Bold.otf') format('otf');
 }
 
 body {
