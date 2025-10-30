@@ -510,3 +510,13 @@ footer {
     --container-max: 110rem;
   }
 }
+
+#biography {
+  display: flex;
+  gap: 5%;
+}
+
+#biography img {
+  border-radius: 15px;
+  width: 40%;
+}
