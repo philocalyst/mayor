@@ -34,8 +34,9 @@ def build_li(entry):
 
 def main():
     entries = []
-    for filename in os.listdir("."):
-        if filename.lower().endswith(".html") and filename != "summaries.html":
+    for file in os.listdir(".."):
+      filename = os.path.abspath(os.path.join("..",file))
+      if filename.lower().endswith(".html") and filename != "summaries.html":
             data = extract_html_data(filename)
             if data:
                 entries.append(data)
