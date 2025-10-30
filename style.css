@@ -324,7 +324,7 @@ section ul {
 
   img {
     flex: 1 1 min(100%, 18.75rem);
-    max-width: 60%;
+    max-width: 40%;
   }
 }
 
