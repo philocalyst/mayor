@@ -132,7 +132,7 @@ main {
   margin: 0 auto;
 }
 
-main ul {
+main>ul {
   display: flex;
   flex-direction: column;
 
@@ -477,7 +477,8 @@ footer {
   }
 }
 
-[aria-label="Call to Action"] {
+[aria-label="Call to Action"],
+[aria-label="Pie de página"] {
   display: flex;
   justify-content: center;
   align-items: center;
