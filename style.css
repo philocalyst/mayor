@@ -482,7 +482,7 @@ footer {
 }
 
 [aria-label="Call to Action"],
-[aria-label="Pie de página"] {
+[aria-label="Llamado a la acción"] {
   display: flex;
   justify-content: center;
   align-items: center;
