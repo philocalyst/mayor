@@ -234,7 +234,8 @@ section ul {
   }
 }
 
-[aria-label="Hero"] {
+[aria-label="Hero"],
+[aria-label="Principal"] {
   background: radial-gradient(ellipse at 30% 30%, var(--color-primary-light) 0%, var(--color-primary-mid) 40%, var(--color-primary-dark) 100%);
   color: var(--color-white);
   text-align: center;
@@ -257,7 +258,8 @@ section ul {
   }
 }
 
-[aria-label="About Me"] {
+[aria-label="About Me"],
+[aria-label="Acerca de Mí"] {
   >div {
     display: flex;
     flex-wrap: wrap;
@@ -277,7 +279,8 @@ section ul {
   }
 }
 
-[aria-label="Campaign Principles"] {
+[aria-label="Campaign Principles"],
+[aria-label="Principios de Campaña"] {
   >div {
     display: flex;
     flex-wrap: wrap;
@@ -296,7 +299,8 @@ section ul {
   }
 }
 
-[aria-label="Slogan"] {
+[aria-label="Slogan"],
+[aria-label="Eslogan"] {
   display: flex;
   justify-content: center;
   gap: clamp(2rem, 5%, 5%);
@@ -507,11 +511,13 @@ footer {
     flex-direction: column;
   }
 
-  [aria-label="About Me"]>div {
+  [aria-label="About Me"]>div,
+  [aria-label="Acerca de Mí"]>div {
     flex-direction: column;
   }
 
-  [aria-label="Campaign Principles"]>div {
+  [aria-label="Campaign Principles"]>div,
+  [aria-label="Principios de Campaña"]>div {
     flex-direction: column;
   }
 }
